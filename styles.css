@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+}
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container h1{
+    font-size: 38px;
+    background: linear-gradient(to right, red, blue);
+    background-clip: text;
+    color: transparent;
+}
+.content p {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+.content {
+    gap: 100px;
+}
+.content .timer {
+    font-size: 20px;
+    color: #fff;
+    background-color: #007bff;
+    padding: 12px 5px 12px 5px;
+}
+.usertext textarea {
+    font-size: 20px;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn button  {
+    width: 75%;
+    font-size: 20px;
+}
+.correct {
+    color: rgb(59, 169, 59);
+    font-weight: bold;
+}
+.incorrect { 
+    color: rgb(218, 102, 102);
+    font-weight: bold;
+}
