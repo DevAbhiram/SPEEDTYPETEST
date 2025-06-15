@@ -45,10 +45,10 @@ div {
     font-size: 20px;
 }
 .correct {
-    color: rgb(59, 169, 59);
+    color: #a8e6cf;
     font-weight: bold;
 }
 .incorrect { 
-    color: rgb(218, 102, 102);
+    color: #ff8b94;
     font-weight: bold;
 }
